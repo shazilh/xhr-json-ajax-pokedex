@@ -2,11 +2,67 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 	<title>AJAX, JSON y APIs</title>
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css" media="screen,projection">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-	<ul id="pokemons"></ul>
+    <nav>
+    <div class="nav-wrapper">
+      <form>
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label class="label-icon" for="search"><i class="material-icons">view_headline</i></label>
+          <i class="material-icons">close</i>
+        </div>
+      </form>
+    </div>
+  </nav>
+    <div><h3 class="left">Pokedex.org</h3></div>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix right">search</i>
+              <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+              <label for="icon_prefix2">Search for Pókemons</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    
+    <!--codigo para la tabla 1-->
+         <div class="row margen estilo ">
+              <div id="modal" class="col s1 m1"><img class="responsive-img" src="assets/img/2ivysaur.png"></div>
+              <div id="modal" class="col s1 m1"><img class="responsive-img" src="assets/img/golduck.png"></div>
+              <div id="modal" class="col s1 m1"><img class="responsive-img" src="assets/img/beedrill.png"></div>
+              <div id="modal" class="col s1 m1"><img class="responsive-img" src="assets/img/bulbasaur.png"></div>
+              <div id="modal" class="col s1 m1"><img class="responsive-img" src="assets/img/butterfly.png"></div>
+              <div id="modal" class="col s1 m1"><img class="responsive-img" src="assets/img/Caterpie.png"></div>
+              <div id="modal" class="col s1 m1"><img class="responsive-img" src="assets/img/charizard.jpg"></div>
+         </div>
+     <div class="divider"></div>
+    <!--codigo para la tabla 2-->
+    <div class="row margen estilo ">
+              <div class="col s1 m1"><img class="responsive-img" src="assets/img/koala.png"></div>
+              <div class="col s1 m1"><img class="responsive-img" src="assets/img/Muk.png"></div>
+              <div class="col s1 m1"><img class="responsive-img" src="assets/img/ninetales.png"></div>
+              <div class="col s1 m1"><img class="responsive-img" src="assets/img/pidgey.png"></div>
+              <div class="col s1 m1"><img class="responsive-img" src="assets/img/pikachu.jpg"></div>
+              <div class="col s1 m1"><img class="responsive-img" src="assets/img/psyduck.png"></div>
+              <div class="col s1 m1"><img class="responsive-img" src="assets/img/raichu.png"></div>
+         </div>
+         
+         
+    
+    
+    
+    <!--
+	<ul id="pokemons"></ul>-->
 	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="js/materialize.min.js"></script>
 	<script src="./js/app.js"></script>
 </body>
 </html>

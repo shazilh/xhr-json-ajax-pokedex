@@ -1,0 +1,16 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+.margen{
+    margin-left: 0;
+    margin-right: 0;
+}
+.nav-wrapper{
+    background-color: rebeccapurple;
+}
+.estilo{
+    margin-left: 500px;
+}
+ 
+
