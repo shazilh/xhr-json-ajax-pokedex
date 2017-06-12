@@ -20,58 +20,11 @@
       </form>
     </div>
   </nav>
-    <div><h3 class="left">Pokedex.org</h3></div>
-     <h3>Total de Pokemones:<span id="total">0</span></h3>
-      <div class="row">
-        <form class="col s12">
-          <div class="row">
-            <div class="input-field col s12">
-              <i class="material-icons prefix right">search</i>
-              <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-              <label for="icon_prefix2">Search for Pókemons</label>
-            </div>
-          </div>
-        </form>
-      </div>
-        <ul id="pokemones"></ul>
-       <div id="habilidades"></div>
-    <!--codigo para la tabla 1-->
-         <div class="row margen estilo ">
-              <div id="modal" class="col s1 m1"><img class="responsive-img" src="assets/img/2ivysaur.png"></div>
-              <div id="modal" class="col s1 m1"><img class="responsive-img" src="assets/img/golduck.png"></div>
-              <div id="modal" class="col s1 m1"><img class="responsive-img" src="assets/img/beedrill.png"></div>
-              <div id="modal" class="col s1 m1"><img class="responsive-img" src="assets/img/bulbasaur.png"></div>
-              <div id="modal" class="col s1 m1"><img class="responsive-img" src="assets/img/butterfly.png"></div>
-              <div id="modal" class="col s1 m1"><img class="responsive-img" src="assets/img/Caterpie.png"></div>
-              <div id="modal" class="col s1 m1"><img class="responsive-img" src="assets/img/charizard.jpg"></div>
-         </div>
-     <div class="divider"></div>
-    <!--codigo para la tabla 2-->
-    <div class="row margen estilo ">
-              <div class="col s1 m1"><img class="responsive-img" src="assets/img/koala.png"></div>
-              <div class="col s1 m1"><img class="responsive-img" src="assets/img/Muk.png"></div>
-              <div class="col s1 m1"><img class="responsive-img" src="assets/img/ninetales.png"></div>
-              <div class="col s1 m1"><img class="responsive-img" src="assets/img/pidgey.png"></div>
-              <div class="col s1 m1"><img class="responsive-img" src="assets/img/pikachu.jpg"></div>
-              <div class="col s1 m1"><img class="responsive-img" src="assets/img/psyduck.png"></div>
-              <div class="col s1 m1"><img class="responsive-img" src="assets/img/raichu.png"></div>
-         </div>
-         
-          <!-- Modal Trigger -->
-  <a class="waves-effect waves-light btn" href="#modal1">Modal</a>
-
-  <!-- Modal Structure -->
-              <div id="modal1" class="modal">
-                <div class="modal-content">
-                  <h4>Modal Header</h4>
-                  <p>A bunch of text</p>
-                </div>
-                <div class="modal-footer">
-                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-                </div>
-              </div>
-              
-       
+    <div><h3 class="center">Pokedex.org</h3></div>
+    <div class="row" id="pokes"></div>
+	<!-- Modal Structure -->
+    <div id="modalPokemon" class="modal"></div>
+    <div class="siguiente center"><a href="#">Ver otros 20 Pokemones</a></div>
         
 	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="js/materialize.min.js"></script>

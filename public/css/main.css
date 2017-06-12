@@ -12,5 +12,21 @@
 .estilo{
     margin-left: 500px;
 }
+img.imagenModal {
+  width: 100%;
+  max-height: 200px;
+  min-height: 200px;
+}
  
-
+.borderojo{
+  border: red solid 2px;
+  width: 100%;
+  max-height: 200px;
+  min-height: 200px;
+}
+.titulo{
+  font-family: 'Lato', sans-serif;
+}
+.color{
+    background-color: greenyellow;
+}
